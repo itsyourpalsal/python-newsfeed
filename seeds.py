@@ -1,5 +1,6 @@
-from app.models import User, Post, Comment, Vote
+from app.models import User
 from app.db import Session, Base, engine
+from app.models import User, Post, Comment, Vote
 
 # drop and rebuild tables
 Base.metadata.drop_all(engine)
